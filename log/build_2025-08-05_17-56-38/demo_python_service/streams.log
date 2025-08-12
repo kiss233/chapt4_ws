@@ -1,0 +1,23 @@
+[0.798s] Invoking command in '/home/lizi/chapt4/chapt4_ws/src/demo_python_service': AMENT_PREFIX_PATH=/home/lizi/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lizi/chapt4/chapt4_ws/install/chapt4_interfaces LD_LIBRARY_PATH=/home/lizi/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lizi/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:/home/lizi/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lizi/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/lizi/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[1.054s] running egg_info
+[1.054s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[1.054s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[1.055s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[1.055s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[1.055s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[1.059s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.059s] adding license file 'LICENSE'
+[1.064s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.064s] running build
+[1.064s] running build_py
+[1.064s] running install
+[1.065s] running install_lib
+[1.065s] running install_data
+[1.065s] creating /home/lizi/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource
+[1.065s] copying resource/deflaut.jpeg -> /home/lizi/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource
+[1.065s] running install_egg_info
+[1.066s] removing '/home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[1.069s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[1.070s] running install_scripts
+[1.131s] writing list of installed files to '/home/lizi/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[1.165s] Invoked command in '/home/lizi/chapt4/chapt4_ws/src/demo_python_service' returned '0': AMENT_PREFIX_PATH=/home/lizi/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lizi/chapt4/chapt4_ws/install/chapt4_interfaces LD_LIBRARY_PATH=/home/lizi/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lizi/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:/home/lizi/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lizi/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/lizi/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data

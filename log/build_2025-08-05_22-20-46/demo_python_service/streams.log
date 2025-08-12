@@ -1,0 +1,26 @@
+[0.752s] Invoking command in '/home/lizi/chapt4/chapt4_ws/src/demo_python_service': PYTHONPATH=/home/lizi/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lizi/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/lizi/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.991s] running egg_info
+[0.991s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.991s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.991s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.991s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.992s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.992s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.992s] adding license file 'LICENSE'
+[0.994s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.994s] copying demo_python_service/face_detect_node.py -> /home/lizi/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.994s] running install
+[0.994s] running install_lib
+[0.994s] copying /home/lizi/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.996s] byte-compiling /home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-310.pyc
+[0.996s] running install_data
+[0.996s] running install_egg_info
+[0.998s] removing '/home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.998s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.998s] running install_scripts
+[1.018s] Installing face_detect_node script to /home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.018s] Installing learn_face_detect script to /home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.020s] writing list of installed files to '/home/lizi/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[1.041s] Invoked command in '/home/lizi/chapt4/chapt4_ws/src/demo_python_service' returned '0': PYTHONPATH=/home/lizi/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lizi/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lizi/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/lizi/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data

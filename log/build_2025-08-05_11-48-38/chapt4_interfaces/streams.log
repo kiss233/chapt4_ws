@@ -1,0 +1,68 @@
+[0.005s] Invoking command in '/home/lizi/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lizi/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/lizi/chapt4/chapt4_ws/install/chapt4_interfaces
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.147s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.235s] -- Detecting CXX compiler ABI info
+[0.338s] -- Detecting CXX compiler ABI info - done
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.338s] -- Detecting CXX compile features
+[0.338s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.579s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.584s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.652s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.876s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.877s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.877s]   chapt4_interfaces --arguments-file
+[0.877s]   /home/lizi/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter__arguments__chapt4_interfaces.json
+[0.877s]   --output-dir
+[0.877s]   /home/lizi/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces
+[0.877s]   --output-file
+[0.877s]   /home/lizi/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces.idls)
+[0.877s]   returned error code 1:
+[0.877s] 
+[0.877s]   Error processing 'int18 number' of
+[0.877s]   'chapt4_interfaces/FaceDetector_Response': ''int18' is an invalid message
+[0.877s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.877s] 
+[0.877s]   Traceback (most recent call last):
+[0.877s] 
+[0.877s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.877s]       return _run_code(code, main_globals, None,
+[0.877s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.877s]       exec(code, run_globals)
+[0.877s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.878s]       sys.exit(main())
+[0.878s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.878s]       abs_idl_file = convert_to_idl(
+[0.878s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.878s]       return convert_srv_to_idl(
+[0.878s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.878s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.878s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 863, in parse_service_string
+[0.878s]       response_message = parse_message_string(
+[0.878s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.878s]       Type(type_string, context_package_name=pkg_name),
+[0.878s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.878s]       super(Type, self).__init__(
+[0.878s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.878s]       raise InvalidResourceName(
+[0.878s] 
+[0.878s]   rosidl_adapter.parser.InvalidResourceName: 'int18' is an invalid message
+[0.878s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.879s] 
+[0.879s] Call Stack (most recent call first):
+[0.879s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.879s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.879s] 
+[0.879s] [0m
+[0.879s] -- Configuring incomplete, errors occurred!
+[0.879s] See also "/home/lizi/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles/CMakeOutput.log".
+[0.883s] Invoked command in '/home/lizi/chapt4/chapt4_ws/build/chapt4_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lizi/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/lizi/chapt4/chapt4_ws/install/chapt4_interfaces
